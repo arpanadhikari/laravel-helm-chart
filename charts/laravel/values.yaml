@@ -80,3 +80,18 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+database:
+  enabled: true
+  image:
+    repository: mariadb
+    tag: 10.5.8
+    pullPolicy: IfNotPresent
+  service:
+    port: 3306
+  replicaCount: 1
+  # credentials
+  username: user
+  password: password
+  database: database
+
