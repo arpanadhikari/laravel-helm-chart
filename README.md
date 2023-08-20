@@ -5,7 +5,7 @@
 How to use this chart:
 
 ```bash
-helm repo add laravel https://arpanadhikari.github.io/laravel-helm-chart/charts
+helm repo add laravel https://arpanadhikari.github.io/laravel-helm-chart/
 helm install laravel laravel/laravel
 ```
 
