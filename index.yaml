@@ -3,6 +3,20 @@ entries:
   laravel:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-08-20T12:09:53.591607962Z"
+    dependencies:
+    - name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 13.0.5
+    description: Helm chart for deploying your laravel application on Kubernetes.
+    digest: d1965203cd7f344495c17e2a411b8bf21e78ec11778132c67850419de8daf0f5
+    name: laravel
+    type: application
+    urls:
+    - https://github.com/arpanadhikari/laravel-helm-chart/releases/download/laravel-0.2.0/laravel-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-08-20T10:53:06.895414739Z"
     dependencies:
     - name: mariadb
@@ -25,4 +39,4 @@ entries:
     urls:
     - https://github.com/arpanadhikari/laravel-helm-chart/releases/download/laravel-0.1.1/laravel-0.1.1.tgz
     version: 0.1.1
-generated: "2023-08-20T10:53:06.895424839Z"
+generated: "2023-08-20T12:09:53.591621162Z"
